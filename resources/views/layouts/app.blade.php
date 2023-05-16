@@ -18,6 +18,7 @@
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 
 
+
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 body{
@@ -122,6 +123,7 @@ padding: 10px 20px;
 
         <main>
             @yield('content')
+                        @yield('javascript')
         </main>
     </div>
 </body>
